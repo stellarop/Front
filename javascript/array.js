@@ -16,4 +16,4 @@ num.push('사');
 
 num.unshift('영');
 
-console.log(num);
+console.log(num); 
