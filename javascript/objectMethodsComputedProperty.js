@@ -68,7 +68,7 @@ console.log('keys : ', Object.keys(user3));
 console.log('values : ', Object.values(user3));
 
 // Object.entries 키와 값 모두 배열로 반환받고 싶다면
-console.log('all : ', Object.entries(user3));
+console.log('entries : ', Object.entries(user3));
 
 const arr = [
      ["name", "testName"]
@@ -76,5 +76,5 @@ const arr = [
 ];
 
 // Object.fromEntries 키/값 배열을 객체로 변환
-console.log('arr : ', Object.fromEntries(arr))
+console.log('fromEntries : ', Object.fromEntries(arr))
 
